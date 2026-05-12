@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-4j3g5p%*n&%4jmd50$!7yd63_%nm*@qk2k)gafe*35zp=y1k%@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['whatsbro-qfyod6v6c-abhayrcbs-projects.vercel.app', 'localhost', 'whatsbro-api.onrender.com','127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 
 AUTH_USER_MODEL = 'chat.User'
