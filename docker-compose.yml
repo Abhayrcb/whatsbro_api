@@ -9,7 +9,7 @@ services:
       - redis_data:/data
   api:
     build: .
-    command: daphne", "-b", "0.0.0.0", "-p", "8000", "api.asgi:application
+    command: daphne -b 0.0.0.0 -p 8000 api.asgi:application
     volumes:
       - .:/app
     depends_on:
